@@ -109,3 +109,36 @@ console.log(typeof stringNum)       // String
 stringNum = String(bool2)
 console.log(stringNum)              // False
 console.log(typeof stringNum)       // String
+
+
+// 4. Conversion Operations :
+console.log(`\n Conversion in Operations : `);
+
+let val = 46
+let negval = -val
+console.log(negval)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)  //power
+// console.log(2/2)
+// console.log(2%2)
+
+let str1 = "hello "
+let str2 = "prathamesh"
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1" + 2)           // 12
+console.log(1 + "2")           // 12
+console.log("1" + 2 + 2)       // 122
+console.log(1 + 2 + "2")       // 32
+
+console.log(+true)              // 1
+console.log(+false)             // 0
+console.log(+"")                // 0
+console.log(+" ")               // 0
+console.log(+"om")              // NaN
+
+
