@@ -45,7 +45,7 @@ console.log (id === anotherId)  // false  (becasue they are unique)
 
 
 // Datatypes : 
-  // A. primitive datatypes : (total : 07)
+  // A. primitive datatypes : (total : 07)  (call by value)
     // 1. number --> integer (range 2 pow 53) 
     // 2. bigint -->  range more than number
     // 3. String --> " "
@@ -54,7 +54,35 @@ console.log (id === anotherId)  // false  (becasue they are unique)
     // 6. undefined --> not defined variable 
     // 7. symbol --> unique
     
-  // B. non-primitive datatypes : (reference type)
+  // B. non-primitive datatypes : (reference type)   (call by reference)
     // array --> collection of related data items (type object)
     // objects --> instance of class or real world entity 
     // functions --> can also be a non primitive data types
+
+
+
+    // Memory Management :
+    // Stack (primitive dataTypes)    Heap (non- primitive dataTypes)
+
+    // no change on original value because copy of value is send ont the actual value (stack)
+    let myName = "prathamesh"
+    let myAnotherName = myName;
+    myAnotherName = "Dinesh"
+    console.log(myName);
+    console.log(myAnotherName);
+
+    // change in original value because the copy is not send both represents the same values (Heap)
+    let newObj = {
+        name: "Rohan",
+        upi: "upi@ypl"
+    }
+    
+    let myNewObj = newObj;
+    myNewObj.name = "parth"
+
+    console.log(newObj)
+    console.log(myNewObj)
+
+
+
+    
