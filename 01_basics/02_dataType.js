@@ -41,7 +41,9 @@ const anotherId = Symbol('123') // another unique id
 // let's  check are the are identical or different
 console.log (id === anotherId)  // false  (becasue they are unique)
 
-
+const myFucntion = function(){
+  console.log("Hello Prathamesh")
+}
 
 
 // Datatypes : 
