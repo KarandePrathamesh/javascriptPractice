@@ -1,6 +1,6 @@
 // 4. Datatypes in javascript (data types denotes the type of data we are storing in variables)
     
-// 1. primitive datatypes -->undefined, null, number, string, boolean, symbol, 
+// 1. primitive datatypes -->undefined, null, Number, String, Boolean, Symbol, BigInt
     // integer
     var num = 10;       
 
@@ -35,7 +35,7 @@
 
 
 
-// 2. non-primitive datatypes/reference datatypes
+// 2. non-primitive datatypes/reference datatypes --> Array, Objects, Functions
 
     // array
     var arr = [1,2,3,4,"prahamesh",,,];
