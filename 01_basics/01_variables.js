@@ -1,8 +1,9 @@
+
 const accountId = 4645
 var accountEmail = "prathamesh@gmail.com"
 let accountPassword = "12345"
-accountCity = "satara"    // prefer not to use this type of variables.
-let accountState   // ';' -->semicolon is not necessary in javascript.
+accountCity = "satara"    // prefer not to use this (var) type of variables.
+let accountState   // ';' -->semicolon is not necessary in javascript.  --> Undefined datatype
 
 
 
